@@ -49,7 +49,10 @@ const personalInfo = {
                 My work spans both frontend and backend development, including the implementation of REST APIs, UI components with modern frameworks, and integration with cloud services like AWS (Lambda, S3, CloudFront, CloudWatch). I’m also experienced in writing unit tests (Jasmine, Mocha, Microsoft Unit Testing with Moq) and automating testing workflows with Selenium and C#.
                 I’ve been actively involved in performance testing and production troubleshooting, ensuring that our changes are stable and reliable across environments. Additionally, I’ve taken on leadership responsibilities as a Scrum Lead, helping to drive team delivery and prioritize work.`,
   highlights: [
-    { label: "Years Experience", value: new Date().getFullYear() - 2017 },
+    {
+      label: "Years Experience",
+      value: String(new Date().getFullYear() - 2017),
+    },
     { label: "Technologies", value: "10+" },
   ],
 };
