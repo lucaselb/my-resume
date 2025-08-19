@@ -58,26 +58,26 @@ const skillCategories = [
   {
     name: "Frontend Development",
     skills: [
-      { name: "Vue.js", level: 90 },
-      { name: "HTML", level: 85 },
-      { name: "Javascript", level: 88 },
-      { name: "CSS/SCSS", level: 92 },
+      { name: "Vue.js", level: 75 },
+      { name: "HTML", level: 75 },
+      { name: "Javascript", level: 75 },
+      { name: "CSS/SCSS", level: 60 },
     ],
   },
   {
     name: "Backend Development",
     skills: [
-      { name: "Node.js", level: 85 },
-      { name: ".NET", level: 80 },
-      { name: "MySQL", level: 82 },
+      { name: ".NET", level: 75 },
+      { name: "MySQL", level: 75 },
+      { name: "Node.js", level: 50 },
     ],
   },
   {
     name: "Tools & Technologies",
     skills: [
-      { name: "Git", level: 95 },
-      { name: "AWS", level: 75 },
-      { name: "Selenium", level: 70 },
+      { name: "Git", level: 80 },
+      { name: "AWS", level: 60 },
+      { name: "Selenium", level: 50 },
     ],
   },
 ];
@@ -85,33 +85,33 @@ const skillCategories = [
 const projects = [
   {
     id: "1",
-    title: "E-Commerce Platform",
+    title: "Resume Suite Builder",
     description:
-      "A modern e-commerce platform built with Vue 3, featuring real-time inventory management, payment processing, and admin dashboard.",
-    technologies: ["Vue 3", "TypeScript", "Node.js", "PostgreSQL", "Stripe"],
-    icon: "🛒",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/ecommerce",
+      "Resume Suite Builder is a web application that allows users to easily create professional resumes using a selection of five unique layouts.",
+    technologies: ["Vue 3", "TypeScript", "HTML", "CSS"],
+    icon: "📋",
+    liveUrl: "https://lucaselb.github.io/resume-suite-builder/",
+    githubUrl: "https://github.com/lucaselb/resume-suite-builder",
   },
   {
     id: "2",
-    title: "Task Management App",
+    title: "Memory Match Game",
     description:
-      "Collaborative task management application with real-time updates, team workspaces, and project tracking capabilities.",
-    technologies: ["React", "Socket.io", "Express", "MongoDB"],
-    icon: "📋",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/taskmanager",
+      "This is a web app where you play a memory match game with a Pokemon theme. Flip cards to find matching pairs before time runs out!",
+    technologies: ["Vue 3", "TypeScript", "HTML", "CSS"],
+    icon: "🎮",
+    liveUrl: "https://lucaselb.github.io/memory-match-game/",
+    githubUrl: "https://github.com/lucaselb/memory-match-game",
   },
   {
     id: "3",
-    title: "Weather Dashboard",
+    title: "Web Builder",
     description:
-      "Beautiful weather dashboard with location-based forecasts, interactive maps, and weather alerts using real-time data APIs.",
-    technologies: ["Vue 3", "Chart.js", "Weather API", "Leaflet"],
-    icon: "🌤️",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/weather",
+      "An interactive web design builder built with Vue 3, TypeScript, and Vite. Drag and drop UI components, design layouts visually, and export clean HTML/CSS code.",
+    technologies: ["Vue 3", "TypeScript", "HTML", "CSS"],
+    icon: "🌐",
+    liveUrl: "https://lucaselb.github.io/web-builder/",
+    githubUrl: "https://github.com/lucaselb/web-builder",
   },
 ];
 
