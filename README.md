@@ -39,3 +39,5 @@ npm run preview
 This project is for educational and entertainment purposes.
 
 ## Live Demo
+
+https://lucaselb.github.io/my-resume/
